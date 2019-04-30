@@ -82,7 +82,7 @@ gulp.task('svg',function(){
         },
         parserOptions: {xmlMode: true}
     }))
-    .pipe(replace('&gt', '>'))
+    .pipe(replace('&gt;', '>'))
     // build svg sprite
     .pipe(svgSprite({
         mode: {
