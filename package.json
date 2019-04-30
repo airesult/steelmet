@@ -1,0 +1,41 @@
+{
+  "name": "steel",
+  "version": "1.0.0",
+  "description": "res",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuraspb73/steelmet.git"
+  },
+  "keywords": [
+    "LO87b86f7"
+  ],
+  "author": "ypiter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuraspb73/steelmet/issues"
+  },
+  "homepage": "https://github.com/yuraspb73/steelmet#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.5",
+    "del": "^4.1.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^2.2.0",
+    "imagemin-jpeg-recompress": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
+    "svg-sprite": "^1.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "run-sequence": "^2.2.1"
+  }
+}
